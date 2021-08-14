@@ -1,6 +1,7 @@
+import HeaderLogo from "./HeaderLogo";
 import HeaderNav from "./HeaderNav";
-import HeaderSearch from "./HeaderSearch";
 import HeaderOptions from "./HeaderOptions";
+import HeaderSearch from "./HeaderSearch";
 
 const Header = () => {
   return (
@@ -8,7 +9,10 @@ const Header = () => {
       className="sticky top-0 z-50 bg-white flex items-center
       p-2 lg:px-5 shadow-md"
     >
-      <HeaderSearch />
+      <div className="flex items-center">
+        <HeaderLogo />
+        <HeaderSearch />
+      </div>
       <HeaderNav />
       <HeaderOptions />
     </header>

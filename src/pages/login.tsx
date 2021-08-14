@@ -1,17 +1,17 @@
-import IsAuth from "modules/auth/IsAuth";
-import Home from "modules/home/Home";
+import IsNotAuth from "modules/auth/IsNotAuth";
+import Login from "modules/user/Login";
 import { GetServerSideProps } from "next";
 import { getSession } from "next-auth/client";
 
-const HomePage = () => {
+const LoginPage = () => {
   return (
-    <IsAuth>
-      <Home />
-    </IsAuth>
+    <IsNotAuth>
+      <Login />
+    </IsNotAuth>
   );
 };
 
-export default HomePage;
+export default LoginPage;
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const session = await getSession(context);
