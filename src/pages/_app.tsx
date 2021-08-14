@@ -1,8 +1,13 @@
+import Providers from "components/providers/Providers";
 import { AppProps } from "next/app";
-import "@style/globals.css";
+import "styles/globals.css";
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
-  return <Component {...pageProps} />;
+const App = ({ Component, pageProps }: AppProps) => {
+  return (
+    <Providers>
+      <Component {...pageProps} />
+    </Providers>
+  );
 };
 
-export default MyApp;
+export default App;
