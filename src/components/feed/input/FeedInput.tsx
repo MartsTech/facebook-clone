@@ -1,6 +1,7 @@
 import FeedInputAvatar from "./FeedInputAvatar";
 import FeedInputField from "./FeedInputField";
 import FeedInputOptions from "./FeedInputOptions";
+import FeedInputSelectedImage from "./FeedInputSelectedImage";
 
 const FeedInput = () => {
   return (
@@ -11,6 +12,7 @@ const FeedInput = () => {
       <div className="flex items-center space-x-4 p-4">
         <FeedInputAvatar />
         <FeedInputField />
+        <FeedInputSelectedImage />
       </div>
       <FeedInputOptions />
     </div>
