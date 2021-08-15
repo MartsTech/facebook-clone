@@ -17,7 +17,7 @@ const Sidebar = () => {
   const { user } = useStore().userStore;
 
   return (
-    <div className="p-2 mt-5 max-w-[600px] xl:min-w-[300px]">
+    <section className="p-2 mt-5 max-w-[600px] xl:min-w-[300px]">
       <SidebarRow src={user!.photoURL} title={user!.displayName} />
       <SidebarRow Icon={UsersIcon} title="Friends" />
       <SidebarRow Icon={UserGroupIcon} title="Groups" />
@@ -26,7 +26,7 @@ const Sidebar = () => {
       <SidebarRow Icon={CalendarIcon} title="Events" />
       <SidebarRow Icon={ClockIcon} title="Memories" />
       <SidebarRow Icon={ChevronDownIcon} title="See More" />
-    </div>
+    </section>
   );
 };
 

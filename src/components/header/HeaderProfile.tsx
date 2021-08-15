@@ -16,7 +16,10 @@ const HeaderProfile = () => {
         layout="fixed"
         alt="avatar"
       />
-      <p className="whitespace-nowrap font-semibold pr-3">
+      <p
+        className="hidden lg:inline-flex text-sm whitespace-nowrap 
+        font-semibold pr-3"
+      >
         {user?.displayName}
       </p>
     </>

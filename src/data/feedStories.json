@@ -1,1 +1,32 @@
-[{ "name": "" }]
+[
+  {
+    "id": "9b45ae37-0e19-4c2e-8df9-75fd69fa0576",
+    "name": "Martin Velkov",
+    "src": "/images/stories/me.jpg",
+    "profile": "/images/profiles/me.jpg"
+  },
+  {
+    "id": "6b718f7f-1444-41ba-bf5d-40c2087d731d",
+    "name": "Elon Musk",
+    "src": "/images/stories/elon.jpg",
+    "profile": "/images/profiles/elon.jpg"
+  },
+  {
+    "id": "78ad56fb-6118-48e0-9826-fff3df25644d",
+    "name": "Jeff Bezoz",
+    "src": "/images/stories/jeff.jpg",
+    "profile": "/images/profiles/jeff.jpg"
+  },
+  {
+    "id": "edb5bf38-bad2-4d11-9991-650807252e2b",
+    "name": "Bill Gates",
+    "src": "/images/stories/bill.jpg",
+    "profile": "/images/profiles/bill.jpg"
+  },
+  {
+    "id": "1bc999c5-dee3-4e6b-9b3c-8ae88b74e5a3",
+    "name": "Mark Zuckerberg",
+    "src": "/images/stories/mark.jpg",
+    "profile": "/images/profiles/mark.jpg"
+  }
+]
