@@ -1,22 +1,23 @@
-import { useSession } from "next-auth/client";
+import { observer } from "mobx-react-lite";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { useStore } from "stores/store";
 
 const IsAuth: React.FC = ({ children }) => {
-  const [session, loading] = useSession();
+  const { user, loading } = useStore().userStore;
   const router = useRouter();
 
   useEffect(() => {
-    if (!session && !loading) {
+    if (!user && !loading) {
       router.replace("/login");
     }
-  }, [session, loading, router]);
+  }, [user, loading, router]);
 
-  if (session) {
+  if (user) {
     return <>{children}</>;
   }
 
   return null;
 };
 
-export default IsAuth;
+export default observer(IsAuth);

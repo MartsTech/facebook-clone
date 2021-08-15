@@ -11,9 +11,9 @@ const HeaderNavIcon: React.FC<HeaderNavIconProps> = ({
 }) => {
   return (
     <div
-      className="flex items-center cursor-pointer md:px-10 sm:h-14
-      md:hover:bg-gray-100 rounded-xl active:border-b-2
-      active:border-blue-500 group transition-colors duration-200
+      className="group flex items-center cursor-pointer rounded-xl
+      md:px-10 sm:h-14 md:hover:bg-gray-100 active:border-b-2
+      active:border-blue-500 transition-colors duration-200
       ease-in-out"
     >
       <Icon
