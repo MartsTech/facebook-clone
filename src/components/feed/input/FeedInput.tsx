@@ -1,24 +1,20 @@
-import { observer } from "mobx-react-lite";
-import Image from "next/image";
-import { useStore } from "stores/store";
+import FeedInputAvatar from "./FeedInputAvatar";
+import FeedInputField from "./FeedInputField";
+import FeedInputOptions from "./FeedInputOptions";
 
 const FeedInput = () => {
-  const { user } = useStore().userStore;
-
   return (
-    <div>
-      <div>
-        <Image
-          className="rounded-full"
-          src={user!.photoURL}
-          width={40}
-          height={40}
-          layout="fixed"
-          alt="avatar"
-        />
+    <div
+      className="bg-white p-2 rounded-2xl shadow-md text-gray-500
+      font-medium mt-6"
+    >
+      <div className="flex items-center space-x-4 p-4">
+        <FeedInputAvatar />
+        <FeedInputField />
       </div>
+      <FeedInputOptions />
     </div>
   );
 };
 
-export default observer(FeedInput);
+export default FeedInput;
