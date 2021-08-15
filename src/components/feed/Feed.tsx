@@ -1,4 +1,5 @@
 import FeedInput from "./input/FeedInput";
+import FeedPosts from "./posts/FeedPosts";
 import FeedStories from "./stories/FeedStories";
 
 const Feed = () => {
@@ -10,6 +11,7 @@ const Feed = () => {
       <div className="mx-auto max-w-md md:max-w-lg lg:max-w-2xl">
         <FeedStories />
         <FeedInput />
+        <FeedPosts />
       </div>
     </section>
   );
