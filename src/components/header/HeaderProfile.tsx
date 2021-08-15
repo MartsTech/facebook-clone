@@ -1,16 +1,26 @@
+import { observer } from "mobx-react-lite";
+import Image from "next/image";
 import { useStore } from "stores/store";
 
 const HeaderProfile = () => {
-  const { signOut } = useStore().userStore;
+  const { user, signOut } = useStore().userStore;
 
   return (
-    <div>
-      {/*Profile Pic */}
-      <p onClick={signOut} className="whitespace-nowrap font-semibold pr-3">
-        Martin Velkov
+    <>
+      <Image
+        onClick={signOut}
+        className="rounded-full cursor-pointer"
+        src={user!.photoURL}
+        width={40}
+        height={40}
+        layout="fixed"
+        alt="avatar"
+      />
+      <p className="whitespace-nowrap font-semibold pr-3">
+        {user?.displayName}
       </p>
-    </div>
+    </>
   );
 };
 
-export default HeaderProfile;
+export default observer(HeaderProfile);
