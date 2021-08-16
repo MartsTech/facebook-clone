@@ -13,7 +13,7 @@ export const defaultSEO: DefaultSeoProps = {
     site_name: "Facebook Clone",
     images: [
       {
-        url: `${baseUrl}/og-image.png`,
+        url: `${baseUrl}/meta/og_image.png`,
         alt: "Facebook Clone",
       },
     ],
