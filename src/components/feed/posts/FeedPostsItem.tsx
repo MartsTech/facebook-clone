@@ -30,7 +30,7 @@ const FeedPostsItem: React.FC<FeedPostsItemProps> = ({ post }) => {
         <p className="pt-4">{message}</p>
       </div>
       {postImage && (
-        <div className="bg-white">
+        <div className="bg-white grid place-items-center">
           {/* eslint-disable-next-line @next/next/no-img-element*/}
           <img
             loading="lazy"

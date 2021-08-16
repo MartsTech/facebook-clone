@@ -1,0 +1,37 @@
+[
+  {
+    "id": "aa0e653b-fde9-4a54-b049-3d11e8413ef3",
+    "src": "/images/profiles/jeff.jpg",
+    "name": "Jeff Bezoz"
+  },
+  {
+    "id": "7978c4d3-9420-43d9-9b39-c1967e5a82e5",
+    "src": "/images/profiles/elon.jpg",
+    "name": "Elon Musk"
+  },
+  {
+    "id": "f33973cf-55e1-4529-9f7e-c57d08d40a67",
+    "src": "/images/profiles/bill.jpg",
+    "name": "Bill Gates"
+  },
+  {
+    "id": "778eb84c-546c-4fb4-9b95-ab150db75634",
+    "src": "/images/profiles/mark.jpg",
+    "name": "Mark Zuckerberg"
+  },
+  {
+    "id": "05961c07-82e9-4a09-b297-c9dbf009000b",
+    "src": "/images/profiles/harry.jpg",
+    "name": "Harry Potter"
+  },
+  {
+    "id": "f4126935-a538-4412-bc25-aa821a95fd82",
+    "src": "/images/profiles/queen.jpg",
+    "name": "The Queen"
+  },
+  {
+    "id": "2731375b-1cf3-4e2d-9eac-2bfa8151a87e",
+    "src": "/images/profiles/james.jpg",
+    "name": "James Bond"
+  }
+]
