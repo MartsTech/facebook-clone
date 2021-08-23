@@ -10,7 +10,7 @@
     "gen-env": "npx gen-env-types .env.local -o src/types/env.d.ts -e ."
   },
   "dependencies": {
-    "@heroicons/react": "^1.0.3",
+    "@heroicons/react": "^1.0.4",
     "firebase": "^8.10.0",
     "mobx": "^6.3.2",
     "mobx-react-lite": "^3.2.0",
