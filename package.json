@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.4",
-    "firebase": "^9.0.1",
+    "firebase": "^9.0.2",
     "mobx": "^6.3.3",
     "mobx-react-lite": "^3.2.1",
     "next": "11.1.2",
