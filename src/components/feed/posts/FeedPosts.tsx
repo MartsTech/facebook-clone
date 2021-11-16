@@ -1,12 +1,12 @@
+import { collection, query } from "@firebase/firestore";
 import { db } from "config/firebase";
+import { orderBy } from "firebase/firestore";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { Post } from "types/post";
 import FeedPostsItem from "./FeedPostsItem";
 
 const FeedPosts = () => {
-  const [posts] = useCollection(
-    db.collection("posts").orderBy("timestamp", "desc")
-  );
+  const [posts] = useCollection(query(collection(db, 'posts'), orderBy("timestamp", "desc")));
 
   return (
     <div>
