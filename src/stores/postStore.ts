@@ -1,5 +1,5 @@
+import { serverTimestamp } from "@firebase/firestore";
 import { db, storage } from "config/firebase";
-import firebase from "firebase/app";
 import { makeAutoObservable } from "mobx";
 import { store } from "./store";
 
@@ -40,7 +40,7 @@ class PostStore {
         name: user.displayName,
         email: user.email,
         image: user.photoURL,
-        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        timestamp: serverTimestamp(),
       })
       .then((doc) => {
         if (this.imageToPost) {
