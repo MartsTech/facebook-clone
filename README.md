@@ -1,7 +1,5 @@
 <h1 align="center">
-  <a href="https://facebook-clone-martstech.vercel.app">
-      <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png" alt="Amazon Logo" />
-  </a>
+  <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png" alt="Amazon Logo" />
   <br />
   Facebook-clone
   <br />
@@ -18,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="#demo">Demo</a> •
   <a href="#key-features">Key Features</a> •
   <a href="#key-technologies">Key Technologies</a> •
   <a href="#setup">Setup</a> •
@@ -27,12 +24,6 @@
 </p>
 
 ![Homepage Screenshot](public/screenshots/home.png?raw=true "Homepage Screenshot")
-
----
-
-## Demo
-
-Here is a working live demo [here](https://facebook-clone-martstech.vercel.app)
 
 ---
 
